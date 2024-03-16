@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Hanken Grotesk', 'Poppins', sans-serif;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: mediumaquamarine;
+}
+
+.all {
+  background-color: #DDD;
+
+  width: 400px;
+  height: 400px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 30px;
+  box-shadow: rgba(90, 94, 99, 0.2) 0px 10px 30px;
+
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.todo {
+  margin: 8px;
+}
+
+.all a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.linha {
+  width: 20%;
+  border-radius: 10px;
+  border: rgba(128, 128, 128, 0.3) 0.2px solid;
+}
